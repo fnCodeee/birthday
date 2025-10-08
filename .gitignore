@@ -1,27 +1,142 @@
-# Logs
-logs
-*.log
+# Node.js
+node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
 
-node_modules
-dist
-dist-ssr
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+dist/
+build/
+env/
+venv/
+.venv/
+
+# PHP
+vendor/
+composer.lock
+
+# Ruby
+*.gem
+*.rbc
+.bundle/
+log/
+tmp/
+vendor/bundle/
+vendor/cache/
+*.log
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+target/
+build/
+
+# Go
+bin/
+*.exe
+*.test
+*.out
+
+# C/C++
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS generated
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Editor & IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.bak
+*.tmp
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+*.lcov
+
+# Misc
+*.pid
+*.seed
+*.pid.lock
+
+# Images cache
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Others
+*.zip
+*.tar.gz
+*.tgz
+*.7z
+
+# Next.js
+.next/
+out/
+
+# React
+build/
+
+# Angular
+dist/
+tmp/
+
+# Svelte
+public/build/
+
+# Vue
+dist/
 *.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# Docker
+*.pid
+*.seed
+*.pid.lock
 
-node_modules/
-build/
+# Test output
+junit.xml
+test-results/
+
+# Custom
+secret.*
+private.*
